@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/pokebola.png" type="image/x-icon">
+    <title>Pokedex | Rafael Andrade</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="index.html">
+                <img class="img-logo" src="./assets/pokebola.png" alt="Pokebola">
+            </a>
+            <div  id="modo-escuro-toogle">
+                <img class="img-logo" src="./assets/sol-logo.png" alt="Pokebola" id="icone-sol">
+                <img class="img-logo" src="./assets/icone-lua.png" alt="Pokebola" id="icone-lua">
+            </div>
+           
+        </nav>
+    </header>
+
+    <div id="loading">
+        <div id="loading-spin"></div>
+    </div>
+
+    <div class="main-container">
+        <div class="main-content" id="main-content"></div>
+    </div>
+    
+    <div class="modal" id="modal" onclick="hideModal()">
+        <div class="modal-content" id="modal-content"></div>
+    </div>
+
+    <div class="buttons">
+        <button id="back-button">Anterior</button>
+        <button id="next-button">Próximo</button>
+    </div>
+
+    <footer>
+        <img src="./assets/Pokédex_logo.png" alt="pokedex" id="pokedex">
+        <span class="text-footer">Desenvolvido por Rafael Andrade&copy;</span>
+        <div class="social-media">
+            <a href="https://www.instagram.com/rafael.anddrade_/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            
+            <a href="https://github.com/R4fael-Andrade" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rafael-andrade-48b4a9293/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/9d494598d5.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
